@@ -81,7 +81,9 @@ const Types = {
     plainText: 'text/plain',
     pdf: 'application/pdf',
     video: 'video/*',
-    zip: 'application/zip'
+    zip: 'application/zip',
+    xlsSheet: 'application/vnd.ms-excel',
+    xlsxSheet: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
   },
   utis: {
     allFiles: 'public.content',
@@ -91,6 +93,8 @@ const Types = {
     pdf: 'com.adobe.pdf',
     video: 'public.movie',
     zip: 'public.zip-archive',
+    xlsSheet: 'com.microsoft.Excel.xls',
+    xlsxSheet: 'com.microsoft.Excel.xlsx'
   },
   extensions: {
     allFiles: '*',
@@ -100,6 +104,7 @@ const Types = {
     plainText: '.txt',
     pdf: '.pdf',
     video: '.mp4',
+    sheet: '.xls .xlsx'
   },
 };
 
